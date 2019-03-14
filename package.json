@@ -1,24 +1,33 @@
 {
-  "name": "webRTC Chatter",
+  "name": "webrtc-messenger",
   "version": "1.0.0",
-  "description": "WebRTC Messenger",
+  "description": "Real-time video and text chat",
+  "main": "server.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "keywords": [
-    "WebRTC"
-  ],
-  "author": "Anurag Yadav",
-  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:yadavanurag/node-webRTC-messenger.git"
+    "url": "git+https://github.com/YadavAnurag/node-webRTC-messenger.git"
   },
+  "keywords": [
+    "webrtc",
+    "realtime",
+    "real-time",
+    "chat"
+  ],
+  "author": "Anurag Yadav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YadavAnurag/node-webRTC-messenger/issues"
+  },
+  "homepage": "https://github.com/YadavAnurag/node-webRTC-messenger#readme",
   "dependencies": {
-    "express": "^4.16.3",
-    "handlebars": "^4.0.11",
+    "express": "^4.16.4",
+    "handlebars": "^4.1.0",
     "jquery": "^3.3.1",
-    "semantic-ui-css": "^2.3.1",
-    "simplewebrtc": "^3.0.1"
+    "semantic-ui-css": "^2.4.1",
+    "simplewebrtc": "^3.0.2"
   }
 }
