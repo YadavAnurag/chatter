@@ -1,7 +1,8 @@
 const express = require('express');
 
 const app = express();
-const port = 3000;
+
+var port = normalizePort(process.env.PORT || '3000');
 
 // setting root folde
 app.use(express.static('public'));
